@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Hello World
+    <script>
+        alert("Hello World")
+        alert("Enter a value of A : ")
+        let b = prompt("Enter value here : ", "777")
+        b = Number.parseInt(b)
+        confirm("You entered " + b)
+        alert("You entered a of type " + (typeof b))
+        let write = confirm("Do you want to write it to the page")
+        if (write) {
+            document.write(b)
+        } else {
+            document.write("Please allow me to write")
+        }
+
+        // alert("Hello World");
+        // alert("Enter a value of A: ");
+        // let a = prompt("Enter value here: ", "777"); // Declare variable a to store prompt value
+        // let b = Number.parseInt(a); // Use Number.parseInt to convert string to integer
+        // confirm("You entered " + b);
+        // alert("You entered a of type " + (typeof b));
+        // let write = confirm("Do you want to write it to the page?");
+        // if (write) {
+        //     document.write(b);
+        // } else {
+        //     document.write("Please allow me to write");
+        // }
+    </script>
+</body>
+
+</html>
