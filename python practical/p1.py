@@ -1,0 +1,7 @@
+print("Name : Sameer\nClass : M.Sc(IT) - 3rd Sem\n")
+num1 = int(input("Enter the num1 : "))
+num2 = int(input("Enter the num2 : "))
+print("Addition of ", num1, " + ", num2, " = ", num1 + num2)
+print("Subtraction of ", num1, " - ", num2, " = ", num1 - num2)
+print("Multiplication of ", num1, " * ", num2, " = ", num1 * num2)
+print("Division of ", num1, " / ", num2, " = ", num1 / num2)
